@@ -77,3 +77,26 @@ header .icons a:hover{
  background: var(--light-color);
 }
 
+header .icons #bars{
+  display: none;
+}
+
+
+/* media queries */
+@media(max-width:991px){
+  html{
+    font-size: 50%;
+    
+ }
+ header{
+  padding: 1rem 2rem;
+ }
+}
+@media(max-width:768px){
+  header .icons #bars{
+    display: inline-block;
+  }
+}
+
+
+
